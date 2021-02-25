@@ -3,7 +3,7 @@
 }
 
 body {
-    background-color: #d9dcd6;
+    background-color: #98e24d;
 }
 /* header section */
 header {
@@ -68,6 +68,28 @@ header {
     margin-bottom: 20px;
     font-size: 36px;
 }
+.card {
+    background-color: darkolivegreen;
+    border-style: solid;
+    border-width: 10;
+    padding: 10px;
+    float: left;
+    width: 25%;
+  }
+
+  .card header {
+    padding: 20px;
+    
+  }
+  
+  .card p {
+    text-align: center;
+  }
+  
+  .card img {
+    width: 100%;
+  }
+
 
 
 
@@ -75,12 +97,44 @@ header {
 
 .footer {
     padding: 30px;
-    clear: both;
+  
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
+    text-align: left;
 }
 
 .footer h2 {
     font-size: 20px;
 }
 /* add media query */
+/* Cards are split into two columns at 992px or smaller */
+@media screen and (max-width: 992px) {
+    
+    body {
+        background-color: orange;
+    }
+    
+    .card {
+      width: 50%;
+    }
+    /* Change the header color */
+    h3 {
+      background: darksalmon;
+    }
+  }
+  
+  /* Cards are stacked on top of each other at 768px or smaller */
+  @media screen and (max-width: 768px) {
+    
+    body {
+        background-color: darkred;
+    }
+    
+    .card {
+      width: 100%;
+    }
+    /* Change the header color */
+    h3 {
+      background: #8ac4ff;
+    }
+  }
+  
