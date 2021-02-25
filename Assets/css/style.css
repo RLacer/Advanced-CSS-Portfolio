@@ -1,6 +1,5 @@
 * {
     box-sizing: border-box;
- 
 }
 
 body {
@@ -10,7 +9,7 @@ body {
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-image: url(../images/clouds.JPG);
+    background-image: url(../images/clouds.jpg)
     }
     header h1 {
         display: inline-block;
