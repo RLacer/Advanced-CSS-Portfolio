@@ -10,12 +10,14 @@ body {
         flex-direction: column;
         min-height: 100vh;
         justify-content: flex-start;
+        
       }
 /* header section */
 header {
   padding: 40px;
+  background-image: url(../images/clouds.jpg);
   text-align: center;
-  background: darkcyan;
+  
   color: Black;
     
     }
@@ -38,6 +40,7 @@ header {
         display: flex;
         flex-wrap: wrap;
         flex-grow: 1;
+
       }
 /* sidebar */
       aside {
@@ -46,6 +49,14 @@ header {
         padding: 40px;
         text-align: left;
       }
+.aboutme img {
+    display: block;
+    margin: 10px auto;
+    max-width: 225px;
+        border-radius: 50%;
+
+}
+
 
     /* footer */
 
@@ -60,7 +71,7 @@ header {
     }
     .work {
         flex: 4;
-        background-color: #fff;
+        background-color: darkkhaki;
         padding: 50px;
         display: flex;
         flex-wrap: wrap;
@@ -68,30 +79,36 @@ header {
         align-items: flex-start;
       } 
 
- /*  */
+ /*styling the cards */
 
-.card {
-    background-color: darkolivegreen;
+ .bigcard {
     border-style: solid;
-    border-width: 10;
+    border-width: 1px;
+    border-radius: 50px;
     padding: 10px;
-    float: left;
-    width: 25%;
+    transform: rotate(4deg);
+    box-shadow: 10px 10px 5px #aaaaaa;
+    margin: 20px;
   }
-  .card {
+     
+  .bigcard img {
+    width: 60%;
+     
+  }
+    .card {
     border-style: solid;
     border-width: 1px;
     border-radius: 50px;
     padding: 10px;
     flex: 0 0 300px;
-    transform: rotate(8deg);
+    transform: rotate(4deg);
     box-shadow: 10px 10px 5px #aaaaaa;
     margin: 20px;
   }
 
   .card header {
+    border-radius: 50px 50px 0px 0px;
     padding: 20px;
-    
   }
   
   .card p {
@@ -111,36 +128,27 @@ header {
     text-align: left;
 }
 
-.footer h2 {
-    font-size: 20px;
-}
+
+
 /* add media query */
-/* Cards are split into two columns at 992px or smaller */
+
 @media screen and (max-width: 992px) {
     
-    body {
+    .work {
         background-color: orange;
-    }
-    
-    .card {
-      width: 50%;
     }
     /* Change the header color */
     h3 {
       background: darksalmon;
     }
-  }
-  
+ 
   /* Cards are stacked on top of each other at 768px or smaller */
   @media screen and (max-width: 768px) {
     
-    body {
+    .work {
         background-color: darkred;
     }
-    
-    .card {
-      width: 100%;
-    }
+      
     /* Change the header color */
     h3 {
       background: #8ac4ff;
