@@ -10,7 +10,7 @@
 * The website is responsive to different screen sizes.
 
 ## Link to Website
-https://rlacer.github.io/Advanced-CSS-Portfolio/
+https://rlacer.github.io/Digital-Portfolio/
 
 ## Screenshot
-![screenshot](assets/images/hw2.png)
+![screenshot](assets/images/digport.png)

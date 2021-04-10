@@ -25,14 +25,16 @@ header {
     nav {
         display: flex;
         background-color: lightslategray;
+        
     }
   
     
     nav a {
-        color: black;
+        color: white;
         padding: 14px 20px;
         text-decoration: none;
-        text-align: center;
+      
+       
       }
 /* body */
       main {
@@ -68,7 +70,7 @@ header {
         padding: 20px;
     
         background:lightslategray;
-        color: Black;
+        color: white;
       
     }
     .work {
@@ -153,7 +155,6 @@ header {
 
 footer h2 {
     padding: 30px;
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
     justify-content: space-evenly;
 }
@@ -165,24 +166,21 @@ footer h2 {
 
 @media screen and (max-width: 992px) {
     
-    .work {
-        background-color: orange;
-    }
-    /* Change the header color */
-    h3 {
-      background: darksalmon;
-    }
+  .work, .resume, .card {
+    background-color: darkred;
+}
+} 
+/* Change the header color */
+   
  
   /* Cards are stacked on top of each other at 768px or smaller */
   @media screen and (max-width: 768px) {
     
-    .work {
-        background-color: darkred;
+    .work, .resume, .card {
+        background-color: darksalmon;
     }
       
-    /* Change the header color */
-    h3 {
-      background: #8ac4ff;
-    } 
+   
+  
   }
-}
+
