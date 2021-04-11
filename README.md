@@ -1,16 +1,34 @@
-# Updated Digital Portfolio
+<h1 align="center">Welcome to Digital Portfolio Rebecca Lacer 👋</h1>
+<p>
 
-# Homework Week 8
+  <a href="#" target="_blank">
+    <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" />
+  </a>
+</p>
 
-## Description of my work:
+## Technologies Used
+* HTML
+* CSS
 
-* When opening the page, my name, a recent photo and links to about me, work samples, resume and  contact information are present in  the nav bar.
-* Clicking on the large image links to a collaborative project.
-* The smaller images are links  to other homework projects.
-* The website is responsive to different screen sizes.
+## Description
+* A digital portfolio with links to resume and work samples.
+* Current contact information including LinkedIn, Github and email.
+* A current resume is available and can be downloaded (pdf).
 
-## Link to Website
-https://rlacer.github.io/Digital-Portfolio/
+### 🏠 [Homepage](https://rlacer.github.io/Digital-Portfolio/)
 
-## Screenshot
-![screenshot](assets/images/digport.png)
+
+
+## Author
+
+👤 **Rebecca Lacer**
+
+* Website: https://github.com/RLacer
+* Github: [@RLacer](https://github.com/RLacer)
+* LinkedIn: [@Rebecca Lacer](https://linkedin.com/in/Rebecca-Lacer)
+
+
+![Alt Text](assets\images\port.gif)
+
+***
+_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
