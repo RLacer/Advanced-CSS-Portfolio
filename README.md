@@ -1,4 +1,4 @@
-<h1 align="center">Welcome to Digital Portfolio Rebecca Lacer 👋</h1>
+<h1 align="center">Welcome to  Rebecca Lacer's Digital Portfolio 👋</h1>
 <p>
 
   <a href="#" target="_blank">
