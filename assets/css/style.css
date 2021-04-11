@@ -110,13 +110,21 @@ header {
     padding: 10px;
     box-shadow: 10px 10px 10px 10px silver;
     margin: 20px;
-    width:75%;
+    width:50%;
   }
      
   .bigcard img {
     width: 100%;
     height: 100%;
      
+  }
+  .bigcard img {
+
+  display: block;
+  margin: 10px auto;
+ 
+      border-radius: 20px;
+      
   }
  
   .resume_card img {
@@ -148,7 +156,10 @@ header {
   
   
   #work-history img {
-    width:100%;
+    display: block;
+    margin: 10px auto;
+    max-width: 225px;
+        border-radius: 50%;
   }
 
 
@@ -169,7 +180,7 @@ footer h2 {
   .work, .resume, .card {
     background-color: darkred;
 }
-} 
+
 /* Change the header color */
    
  
@@ -183,4 +194,4 @@ footer h2 {
    
   
   }
-
+} 

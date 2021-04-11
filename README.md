@@ -1,12 +1,12 @@
-# Advanced-CSS-Portfolio
+# Updated Digital Portfolio
 
-# Homework 2 
+# Homework Week 8
 
 ## Description of my work:
 
-* When opening the page, my name, a recent photo and links to the different areas on the website are present.
-* Clicking on the large image will take the visitor to my first homework page.
-* The smaller images (work history & resume links) are placeholders for future work.
+* When opening the page, my name, a recent photo and links to about me, work samples, resume and  contact information are present in  the nav bar.
+* Clicking on the large image links to a collaborative project.
+* The smaller images are links  to other homework projects.
 * The website is responsive to different screen sizes.
 
 ## Link to Website
