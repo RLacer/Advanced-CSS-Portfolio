@@ -28,7 +28,7 @@
 * LinkedIn: [@Rebecca Lacer](https://linkedin.com/in/Rebecca-Lacer)
 
 
-![Alt Text](assets\images\port.gif)
+![Alt Text](assets/images/port.gif)
 
 ***
 _This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
